@@ -1,0 +1,64 @@
+/*
+Element Selector- Tag Based
+p{
+    text-align: center;
+} */
+
+
+/* Id Based Selector
+#mm{
+    text-align: center;
+} */
+ 
+
+ /* Class Based Selector 
+.center{
+    text-align: center;
+} */
+
+/* Universal Selector 
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifA;
+
+}
+*/
+
+
+/* Grouping Selector
+#mm,.center,p,h1{
+    text-align: center;
+    color:aqua
+} */
+
+
+/* Descendant
+div p{
+    background-color: yellow;
+}
+Child
+div >p{
+    background-color:cyan;
+} */
+div + p{
+    background-color: yellow;
+}
+
+div ~ p{
+    background-color: yellow;
+}
+
+div ~ p:hover{
+    background-color: yellow;
+}
+div ~ p::first-letter{
+    color: red;
+}
+
+a[target]{
+    background-color: cyan;
+}
+
+
+
+
+
